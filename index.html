@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Salón de Belleza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Salon de Belleza Sonia </h1>
+        <h3>Tarifas de cepillado y mas</H3>
+    </header>
+
+    <main>
+        <section id="seleccion-servicios">
+            <h2>Selecciona Servicios o Paquetes</h2>
+            <!-- Aquí irán los checkboxes de servicios y botones de paquetes -->
+        </section>
+
+        <section id="seleccion-cliente">
+            <h2>Cliente Frecuente</h2>
+            <select id="descuento-cliente">
+                <option value="0">Sin Descuento</option>
+                <!-- Opciones de descuento se cargarán aquí -->
+            </select>
+        </section>
+
+        <section id="resultados">
+            <h2>Resultados: Su servicio tendra un precio de :</h2>
+            <div id="resumen-calculos">
+                <p>Precio Base (Sin IVA): <span id="precio-base">0.00</span></p>
+                <p>Descuento Aplicado (<span id="porcentaje-descuento">0</span>%): <span id="monto-descuento">0.00</span></p>
+                <p>Subtotal: <span id="subtotal">0.00</span></p>
+                <p>IVA (19%): <span id="monto-iva">0.00</span></p>
+                <p><strong>Precio Final Total: <span id="precio-final">0.00</span></strong></p>
+                <hr>
+                <p>Tiempo Estimado Total: <span id="tiempo-total">0</span> min</p>
+                <p>Comisión Estimada Total (30%): <span id="comision-total">0.00</span></p>
+                <p>Rentabilidad Estimada Total: <span id="rentabilidad-total">0</span>%</p>
+            </div>
+            <div id="comparativa-rentabilidad">
+                <h3>Comparativa Rentabilidad por Servicio</h3>
+                <!-- Tabla o lista de rentabilidad por servicio seleccionado -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tu Salón de Belleza</p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

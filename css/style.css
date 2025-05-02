@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #577ef3;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+h1, h2, h3 {
+    color: #555;
+}
+
+h2 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#seleccion-servicios ul,
+#comparativa-rentabilidad ul {
+    list-style: none;
+    padding: 0;
+}
+
+#seleccion-servicios li {
+    margin-bottom: 0.5rem;
+}
+
+#resultados #resumen-calculos p {
+    margin: 0.5rem 0;
+    font-size: 1.1em;
+}
+
+#resultados #resumen-calculos strong {
+    font-weight: bold;
+    color: #007bff; /* Un color destacado para el precio final */
+}
+
+#resultados #resumen-calculos hr {
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+select, button {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-right: 0.5rem; /* Espacio entre botones de paquetes */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #777;
+}
+
+/* Estilos básicos para responsive */
+@media (max-width: 768px) {
+    main {
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+}
